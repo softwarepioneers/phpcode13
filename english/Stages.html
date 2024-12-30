@@ -1117,18 +1117,27 @@
                                             <input type="text" name="StageId"    placeholder="Stage Id" value="" class="form-control"  required >
                                         </div>
                                     </div>
+
                                     <div class="col">
+                                        <div class="form-group ">
+                                            <label>STAGE INSTITUTION:</label>
+                                            <input type="text" name="InstitutionName"  placeholder="Institution Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>STAGE NAME:</label>
                                             <input type="text" name="StageName"  placeholder="Stage Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
-                                    </div>
+                                    </div> -->
+
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>STAGE TYPE:</label>
+                                               <label>STAGE NAME:</label>
                                             <!-- <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > -->
-                                            <select name="StageType" placeholder="Stage Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Stage Type</option>
+                                            <select name="StageName" placeholder="Stage Name" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Stage Name</option>
                                                 <option value="KG">KG</option>
                                                 <option value="PRIMARY">PRIMARY</option>
                                                 <option value="PREPARATORY">PREPARATORY</option>
