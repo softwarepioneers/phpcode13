@@ -1095,7 +1095,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2>ADD INSTITUTIONS:</h2>
+                        <h2>ADD STAGES:</h2>
                     </div>            
                 </div>
             </div>
@@ -1112,35 +1112,26 @@
                                     
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION ID:</label>
-                                            <input type="text" name="InstitutionId"    placeholder="Institution Id" value="" class="form-control"  required >
+                                            <label>STAGE ID:</label>
+                                            <input type="text" name="StageId"    placeholder="Stage Id" value="" class="form-control"  required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION NAME:</label>
-                                            <input type="text" name="InstitutionName"  placeholder="Institution Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>STAGE NAME:</label>
+                                            <input type="text" name="StageName"  placeholder="Stage Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION TYPE:</label>
+                                            <label>STAGE TYPE:</label>
                                             <!-- <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > -->
-                                            <select name="InstitutionType" placeholder="Institution Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution Type</option>
-                                                <option value="KGSS">KGSS</option>
-                                                <option value="PRISS">PRISS</option>
-                                                <option value="PRESS">PRESS</option>
-                                                <option value="SECSS">SECSS</option>
-                                                <option value="KGPRISS">KGPRISS</option>
-                                                <option value="PRIPRESS">PRIPRESS</option>
-                                                <option value="PRESECSS">PRESECSS</option>
-                                                <option value="KGPRIPRESS">KGPRIPRESS</option>
-                                                <option value="PRIPRESECSS">PRIPRESECSS</option>
-                                                <option value="KGPRIPRESECSS">KGPRIPRESECSS</option>
-                                                <option value="INSS">INSS</option>
-                                                <option value="UNIS">UNIS</option>
-                                                <option value="EMIS">EMIS</option>
+                                            <select name="StageType" placeholder="Stage Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Stage Type</option>
+                                                <option value="KG">KG</option>
+                                                <option value="PRIMARY">PRIMARY</option>
+                                                <option value="PREPARATORY">PREPARATORY</option>
+                                                <option value="SECONDARY">SECONDARY</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1151,27 +1142,27 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION REGION:</label>
-                                            <select name="InstitutionRegion" id="subject" placeholder="Institution Region" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution Region</option>
+                                            <label>STAGE REGION:</label>
+                                            <select name="StageRegion" id="subject" placeholder="Stage Region" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Stage Region</option>
                                             </select>
                                            
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION CITY:</label>
-                                            <select name="InstitutionCity" id="topic" placeholder="Institution Region" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution City</option>
+                                            <label>STAGE CITY:</label>
+                                            <select name="StageCity" id="topic" placeholder="Stage Region" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Stage City</option>
                                             </select>
                                             
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION DISTRICT:</label>
-                                            <select name="InstitutionDistrict" id="chapter" placeholder="Institution chapter" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution District</option>
+                                            <label>STAGE DISTRICT:</label>
+                                            <select name="StageDistrict" id="chapter" placeholder="Stage chapter" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Stage District</option>
                                             </select>
                                             
                                         </div>
