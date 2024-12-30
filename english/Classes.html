@@ -4,7 +4,7 @@
 <html lang="en">
 
 <head>
-<title>ADD INSTITUTIONS</title>
+<title>ADD CLASSES</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -1095,7 +1095,7 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-8 col-sm-12">                        
-                        <h2>ADD INSTITUTIONS:</h2>
+                        <h2>ADD CLASSES:</h2>
                     </div>            
                 </div>
             </div>
@@ -1112,35 +1112,26 @@
                                     
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION ID:</label>
-                                            <input type="text" name="InstitutionId"    placeholder="Institution Id" value="" class="form-control"  required >
+                                            <label>CLASS ID:</label>
+                                            <input type="text" name="ClassId"    placeholder="Class Id" value="" class="form-control"  required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION NAME:</label>
-                                            <input type="text" name="InstitutionName"  placeholder="Institution Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                            <label>CLASS NAME:</label>
+                                            <input type="text" name="ClassName"  placeholder="Class Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION TYPE:</label>
+                                            <label>CLASS TYPE:</label>
                                             <!-- <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > -->
-                                            <select name="InstitutionType" placeholder="Institution Type" value=""  class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution Type</option>
-                                                <option value="KGSS">KGSS</option>
-                                                <option value="PRISS">PRISS</option>
-                                                <option value="PRESS">PRESS</option>
-                                                <option value="SECSS">SECSS</option>
-                                                <option value="KGPRISS">KGPRISS</option>
-                                                <option value="PRIPRESS">PRIPRESS</option>
-                                                <option value="PRESECSS">PRESECSS</option>
-                                                <option value="KGPRIPRESS">KGPRIPRESS</option>
-                                                <option value="PRIPRESECSS">PRIPRESECSS</option>
-                                                <option value="KGPRIPRESECSS">KGPRIPRESECSS</option>
-                                                <option value="INSS">INSS</option>
-                                                <option value="UNIS">UNIS</option>
-                                                <option value="EMIS">EMIS</option>
+                                            <select name="ClassType" placeholder="Class Type" value=""  class="form-control" required>
+                                                <option value="" selected="" disabled="" >Class Type</option>
+                                                <option value="KG">KG</option>
+                                                <option value="PRIMARY">PRIMARY</option>
+                                                <option value="PREPARATORY">PREPARATORY</option>
+                                                <option value="SECONDARY">SECONDARY</option>
                                             </select>
                                         </div>
                                     </div>
@@ -1151,27 +1142,27 @@
                                 <div class="row">
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION REGION:</label>
-                                            <select name="InstitutionRegion" id="subject" placeholder="Institution Region" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution Region</option>
+                                            <label>CLASS REGION:</label>
+                                            <select name="ClassRegion" id="subject" placeholder="Class Region" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Class Region</option>
                                             </select>
                                            
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION CITY:</label>
-                                            <select name="InstitutionCity" id="topic" placeholder="Institution Region" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution City</option>
+                                            <label>CLASS CITY:</label>
+                                            <select name="ClassCity" id="topic" placeholder="Class Region" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Class City</option>
                                             </select>
                                             
                                         </div>
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
-                                            <label>INSTITUTION DISTRICT:</label>
-                                            <select name="InstitutionDistrict" id="chapter" placeholder="Institution chapter" value="" class="form-control" required>
-                                                <option value="" selected="" disabled="" >Institution District</option>
+                                            <label>CLASS DISTRICT:</label>
+                                            <select name="ClassDistrict" id="chapter" placeholder="Class chapter" value="" class="form-control" required>
+                                                <option value="" selected="" disabled="" >Class District</option>
                                             </select>
                                             
                                         </div>
