@@ -1118,14 +1118,22 @@
                                     </div>
                                     <div class="col">
                                         <div class="form-group ">
+                                               <label>CLASS STAGE:</label>
+                                               <input type="text" name="ClassStage"  placeholder="Class Stage" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-group ">
                                             <label>CLASS NAME:</label>
                                             <input type="text" name="ClassName"  placeholder="Class Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <!--
+                                      <div class="col">
                                         <div class="form-group ">
                                             <label>CLASS TYPE:</label>
-                                            <!-- <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > -->
+                                             <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > 
                                             <select name="ClassType" placeholder="Class Type" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Class Type</option>
                                                 <option value="KG">KG</option>
@@ -1135,7 +1143,8 @@
                                             </select>
                                         </div>
                                     </div>
-                                    
+                                -->
+
                                 </div>
 
 
