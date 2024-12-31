@@ -1116,16 +1116,24 @@
                                             <input type="text" name="SubjectId"    placeholder="Subject Id" value="" class="form-control"  required >
                                         </div>
                                     </div>
+
+                                    <div class="col">
+                                        <div class="form-group ">
+                                            <label>CLASS NAME:</label>
+                                            <input type="text" name="ClassName"  placeholder="Class Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
+                                        </div>
+                                    </div>
+
                                     <div class="col">
                                         <div class="form-group ">
                                             <label>SUBJECT NAME:</label>
                                             <input type="text" name="SubjectName"  placeholder="Subject Name" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required >
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    <!-- <div class="col">
                                         <div class="form-group ">
                                             <label>SUBJECT TYPE:</label>
-                                            <!-- <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > -->
+                                             <input type="text" name="InstitutionType"   placeholder="Institution Type" value="" class="form-control" onkeydown="return /[a-z, ]/i.test(event.key)" onblur="if (this.value == '') {this.value = '';}" onfocus="if (this.value == '') {this.value = '';}" required > 
                                             <select name="SubjectType" placeholder="Subject Type" value=""  class="form-control" required>
                                                 <option value="" selected="" disabled="" >Subject Type</option>
                                                 <option value="KGSS">KGSS</option>
@@ -1143,7 +1151,7 @@
                                                 <option value="EMIS">EMIS</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     
                                 </div>
 
